@@ -1,0 +1,42 @@
+
+table{
+    margin-top: 12px;
+}
+
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  table tr:nth-child(even){background-color: #f2f2f2;}
+  
+  table tr:hover {background-color: #ddd;}
+  
+  table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  input , select ,textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .option{
+    border: 1px solid lightgray;
+    padding: 4px;
+    cursor: pointer;
+  }
+
+  .option:hover{
+    background: lightgray;
+    color: black;
+  }
